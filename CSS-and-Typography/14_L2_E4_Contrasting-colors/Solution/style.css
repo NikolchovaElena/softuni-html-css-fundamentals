@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Crimson+Text&display=swap');
+
+html{
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body{
+    padding: 5em;
+}
+
+article header h1{
+    font-family: 'Amiri', serif;
+}
+
+article{
+    background: rgb(51, 102, 153);
+    border-radius: 1rem;
+    color: white;
+    padding: 1.5rem;
+}
+
+
+
+
