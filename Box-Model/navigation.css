@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-header nav {}
+
+.site-header nav ul {}
+
+.site-header nav li {
+    display: inline-block;
+}
+
+.site-header nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: solid 1px;
+}
+
+.site-header nav a:focus,
+.site-header nav a:hover {
+    border-color: black;
+    background: black;
+    color: white;
+    outline: none;
+}

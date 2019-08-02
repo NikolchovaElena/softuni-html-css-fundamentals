@@ -1,0 +1,27 @@
+body {
+    padding: 2rem;
+    margin: 0;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.site-content {}
+
+.main-content,
+.main-sidebar {
+    display: inline-block
+}
+
+.main-content {
+    width: 70%;
+    padding-right: 2rem;
+}
+
+.main-sidebar {
+    width: 22%;
+    vertical-align: top;
+    padding-left: 1rem;
+}
