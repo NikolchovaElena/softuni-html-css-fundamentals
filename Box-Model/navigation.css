@@ -5,7 +5,9 @@ a {
 
 .site-header nav {}
 
-.site-header nav ul {}
+.site-header nav ul {
+    padding-left: 0;
+}
 
 .site-header nav li {
     display: inline-block;
