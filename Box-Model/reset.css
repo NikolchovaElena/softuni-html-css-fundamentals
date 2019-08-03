@@ -1,0 +1,23 @@
+/*
+* Set box-sizing
+*/
+
+html {
+    box-shadow: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* 
+* Reset.css
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}

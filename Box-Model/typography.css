@@ -1,33 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-
-/* Reset.css */
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-
-/* Box sizing */
-
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 html {
-    box-shadow: border-box;
+    font: normal 16px/1.5 'PT Sans', 'Raleway', sans-serif;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+body,
+table,
+form,
+input,
+select,
+textarea {
+    font: inherit;
 }
 
-html {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+p,
+ul,
+ol {
+    padding-bottom: 1.4rem;
 }
 
-p {
-    padding-bottom: 1em;
+ul,
+ol {
+    padding-left: 2rem;
+}
+
+li ul,
+li ol {
+    padding-top: 0.5rem;
+}
+
+ul>li {
+    list-style: circle;
+}
+
+ul>li>ul>li {
+    list-style: square;
+}
+
+ul>li>ul>li>ul>li {
+    list-style: disc;
 }
 
 h1,
@@ -36,34 +47,62 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 1.1;
-    margin: 0 0 0.5em 0;
-    padding: 0;
+    font-weight: normal;
+    padding-bottom: 0.3em;
+    padding-top: 0.5em;
 }
 
 h1 {
-    font-size: 3.0em;
-    font-weight: normal;
+    font-size: 3.052rem;
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 2.441rem;
 }
 
 h3 {
-    font-size: 1.9em;
+    font-size: 1.953rem;
 }
 
 h4 {
-    font-size: 1.6em;
+    font-size: 1.563rem;
 }
 
 h5 {
-    font-size: 1.4em;
+    font-size: 1.25em;
 }
 
 h6 {
-    font-size: 1.2em;
+    font-size: 1rem;
+}
+
+blockquote {
+    padding-left: 2rem;
+}
+
+blockquote p:not(:last-child) {
+    font-style: italic;
+}
+
+blockquote p:first-child::before {
+    display: inline-block;
+    content: '"';
+    font-size: 2rem;
+    line-height: 1rem;
+    padding-right: 1rem;
+}
+
+blockquote p:nth-last-child(2)::after {
+    display: inline-block;
+    content: '"';
+    font-size: 2rem;
+    line-height: 1rem;
+    padding-left: 1rem;
+}
+
+blockquote p:last-child {
+    font-style: bold;
+    text-align: right;
 }
 
 .ampersand {
